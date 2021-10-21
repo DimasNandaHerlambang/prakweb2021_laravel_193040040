@@ -3,6 +3,8 @@
 @extends('layouts.main')
 
 @section('container')
+
+<h1 class="mb-s">{{ $title }}</h1>
     
 
     @foreach ( $posts as $post)
